@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Курорт "Синий луг"</title>
+  <style>
+      .logotxt {
+        margin: 0;
+        font-size: 14px;
+        color:rgb(53, 53, 94) ;
+      }
+
+      .header {
+        padding-top: 24px;
+      }
+.logo{
+    font-size: 24px;
+    color:rgb(53, 53, 94) ;
+}
+      .row {
+        display: flex;
+        align-items: end;
+        column-gap: 24px;
+      }
+
+      .contacts {
+        display: flex;
+        column-gap: 16px;
+
+        margin-left: auto;
+      }
+
+      .navigation {
+        padding-top: 24px;
+        margin-top: 24px;
+        border-top: 1px solid #7a7a7a;
+      }
+
+      .list {
+        display: flex;
+        column-gap: 18px;
+        
+        margin: 0;
+        padding-left: 0;
+        list-style: none;
+      }
+      .mount{
+    width: 100%;
+    height: 500px;
+    object-fit: cover; 
+      
+    }
+      .loyal {
+        margin-left: auto;
+      }
+      .relax{ font-size: 44px ;
+     display: flex;
+     text-transform: uppercase;
+     align-items: row;
+      padding-top: 24px;
+        margin-top: 24px;
+        border-top: 1px solid #7a7a7a;
+    }
+    .hobby {color: #BF6024 ;
+        font-size: 28px;
+    }
+    .grid-container {
+      display: grid;
+      grid: wrap;
+      gap: 10px; 
+      justify-content: space-between;
+    }
+
+    .card {
+      flex: 1 1 20%; 
+       min-width: 300px;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .card img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover; 
+      display: block;
+    }
+
+    .card-caption {
+      padding: 12px;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #cf3535;
+      font-weight: 600px;
+
+    }
+    .live{color: #BF6024;
+    
+    font-size: 28px;
+        border-top: 1px solid #7a7a7a;
+
+}
+
+      .main-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .image-section {
+        position: relative;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      .image-section img {
+        width: 100%;
+        height: 520px;
+        object-fit: cover;
+        display: block;
+      }
+
+      .imagetxt {
+        position: absolute;
+        bottom: 40px;
+        left: 40px;
+        color: #fff;
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      .image-buttons {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        display: flex;
+        gap: 12px;
+      }
+
+      .btn {
+        padding: 10px 40px;
+        border-radius: 20px;
+        text-decoration: none;
+        font-size: 14px;
+        text-align: center;
+        border: 1px solid #d35400;
+        color: #d35400;
+
+      }
+
+      .btn-primary {
+        padding: 10px 40px;
+        background-color: #d35400;
+        color: #fff;
+      }
+
+      .content-section {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+      }
+
+      .card-hotel {
+        background-color: #f5f5f7;
+        padding: 32px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .card-hotel h3 {
+        font-size: 22px;
+        margin-bottom: 16px;
+        color: #222;
+      }
+
+      .card-hotel p {
+        color: #555;
+        margin-bottom: 20px;
+        line-height: 1.5;
+      }
+
+      .card-actions {
+        display: flex;
+        gap: 12px;
+        margin-top: auto;
+      }
+.footer {
+    border-top: 1px solid #7a7a7a;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.official {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.connect {
+  align-items: center;
+  text-align: center;
+}
+  </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="row">
+            <a href="/">
+                <img src="" alt="Логотип базы" />
+     <span class="logo">Синий луг</span>
+            </a>
+
+        <p class="logotxt">твой лучший курорт</p>
+        
+    <div class="contacts" role="group">
+            <a href="feedback.html">Обратная связь</a>
+          <a href="tel:+78007703030">8 800 770 30 30</a>
+        </div>
+      </div>
+        
+    
+         <nav class="navigation">
+        
+          
+            <ul class="list">
+            <li><a href="" >КУРОРТ</a></li>
+            <li><a href="" >ЧЕМ ЗАНЯТЬСЯ</a></li>
+            <li><a href="">КУПИТЬ ОНЛАЙН</a></li>
+            <li><a href="" >АФИША МЕРОПРИЯТИЙ</a></li>
+            <li><a href="" >ПРОЖИВАНИЕ</a></li>
+            
+            <li class="loyal"><a href="" >ПРОГРАММА ЛОЯЛЬНОСТИ</a></li>
+             <li><a href="">ДЛЯ БИЗНЕСА</a></li>
+        
+    
+        </ul>
+    
+    </nav>
+           
+
+    </header>
+    <main> 
+     
+     <img class="mount"
+     src="https://s01.cdn-pegast.net/get/5c/86/17/591c40a179abe703834726c9f435d518f480ab1972b4f3cf357af14621/66c4395f96912.jpg" 
+     
+     alt="Горный склоны курорта">
+    
+    <h1 class="relax">
+        Отдыхай на курорте Синий луг   
+    </h1>
+<section>
+    <h2 class="hobby">Развлечения</h2>
+            <ul class="grid-container">
+       
+                <li class="card">
+                    <a href=""></a><img src="https://avatars.mds.yandex.net/get-altay/1042100/2a00000185356727ec5eb217ee3ce9b3e2fd/orig" alt="Сноубординг">
+                </li>
+                <div class="card-caption">
+                    <a href="">Спортивные развлечения</a>
+                </div>
+           
+                
+                    <li class="card">
+               
+                    <img src="https://www.sardaelitegroup.com/wp-content/uploads/2019/02/sylvain_aymoz1.viiHW_-2.jpg"
+                    alt="вечеринки">
+             
+                </li>
+                <div class="card-caption">
+                    <a href="">Развлекательные мероприятия</a>
+                </div>
+                    
+                    
+            
+                 <li class="card">
+                    <a href=""></a><img src="https://gora-club.ru/assets/images/prielbruse/uzofavtmfxq.jpg" alt="Походы">
+                
+                </li>
+                    <div class="card-caption">
+                        <a href="">Пешие туры</a>
+                    </div>
+                 
+                <li class="card">
+                   <a href=""></a><img src="https://i.pinimg.com/originals/e5/18/4b/e5184b5c02c2dd6df3362b4e22946daf.jpg" alt="Спа процедуры">
+           
+                   </li> 
+                   <div class="card-caption">
+                    <a href="">Спа</a>
+                </div>
+                
+            </ul>
+        
+       
+</section>
+        <h2 class="live">Проживание на курорте</h2>
+
+    <section class="main-grid">
+        <article class="image-section">
+        <img src="https://www.forsuperrich.com/wp-content/uploads/2019/01/CZP-Lounge-Day-2.jpg" alt="Номера люкс с видом на горы">
+        <div class="image-buttons">
+                    <div class="imagetxt">Апартаменты люкс</div>
+        <a href="" class="reserved">Забронировать</a>
+         <a href="">Посмотреть</a>
+        </div>
+    </article>
+    <section class="content-section">
+    <article class="card-hotel"> 
+        <h3>Подберите отель по выгодной цене</h3>
+         <a href="" class="btn btn-primary">Подобрать</a>
+    </article>
+       <article class="card-hotel">
+        <h3>Программа лояльности</h3>
+        
+<p>Покупайте услуги курорта со скидкой</p>
+<div class="card-actions">
+    <a href="" class="btn btn-primary" >Участвовать</a>
+   <a href="" class="btn">Подробнее</a>
+</div>
+     </article>
+   </section>
+    </section>
+
+   </main>
+<footer class="footer" >
+    
+<div class="official">
+    <p>© 2001-2020 Синий луг</p>
+    <p>Официальный сайт Курорта Синий луг</p>
+    <a href="">Политика конфиденциальности </a>
+</div>
+<div class="connect">
+    <a href="">Обратная связь</a>
+
+<address class="address">
+                Россия, <br>
+Москва, 113337, ул. Советская, д. 42Москва, 113337
+</address>
+</div>
+    <div class="oferta">
+        <p>Указанные на сайте цены не являются публичной офертой (ст.435 ГК РФ). Стоимость и возможность предоставления услуг необходимо уточнять в кассах</p>
+    </div>
+</footer>  
