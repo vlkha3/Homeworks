@@ -1,5 +1,4 @@
 // Задание 1. уперся в права
-// не удалось добиться ошибки вида 403 Permission to ... denied to ..
 // Получилось вот так--
 // PS C:\Users\vlkha3\Desktop\LAD\LAD_2026_JS_2> git push
 // remote: Permission to serg-nn52/LAD_2026_JS_2.git denied to vlkha3.
