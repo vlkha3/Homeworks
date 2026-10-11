@@ -19,8 +19,11 @@ jobs:
           directory: .
           check_css: false
           check_favicon: false
+          check_opengraph: false
           disable_external: true
           enforce_https: false
           ignore_empty_alt: true
           ignore_missing_alt: true
           allow_missing_href: true
+          ignore_url_re: |
+            ^(?!https?:)

@@ -6,7 +6,6 @@ export default defineConfig({
 	trailingComma: 'all',
 
 	htmlWhitespaceSensitivity: 'ignore',
-	singleAttributePerLine: true,
 
 	sortImports: {
 		groups: [
