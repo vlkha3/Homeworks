@@ -1,0 +1,23 @@
+name: Oxfmt
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check-formatting:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/setup@v3
+        with:
+          runtime: node@26
+          cache: true
+
+      - name: Run Oxfmt
+        run: pnpm run check:formatting

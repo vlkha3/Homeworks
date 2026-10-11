@@ -1,0 +1,26 @@
+name: Validate HTML
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-html:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: anishathalye/proof-html@v2
+        with:
+          directory: .
+          check_css: false
+          check_favicon: false
+          disable_external: true
+          enforce_https: false
+          ignore_empty_alt: true
+          ignore_missing_alt: true
+          allow_missing_href: true

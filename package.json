@@ -1,0 +1,26 @@
+{
+	"name": "layout-review",
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"check:formatting": "oxfmt --check .",
+		"check:styles": "stylelint \"**/*.{css,scss}\" --allow-empty-input",
+		"fix:formatting": "oxfmt .",
+		"fix:styles": "stylelint \"**/*.{css,scss}\" --fix --allow-empty-input"
+	},
+	"devDependencies": {
+		"oxfmt": "^0.72.0",
+		"stylelint": "^17.16.0",
+		"stylelint-config-clean-order": "^10.0.0",
+		"stylelint-config-recommended": "^18.0.0",
+		"stylelint-plugin-logical-css": "^2.1.0",
+		"typescript": "~6.0.0"
+	},
+	"devEngines": {
+		"packageManager": {
+			"name": "pnpm",
+			"version": "^11.21.0",
+			"onFail": "download"
+		}
+	}
+}
