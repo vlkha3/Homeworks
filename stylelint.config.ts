@@ -5,6 +5,7 @@ export default {
 		'stylelint-config-recommended',
 		'stylelint-config-clean-order',
 		'stylelint-plugin-logical-css/configs/recommended',
+		'stylelint-config-html/html',
 	],
 
 	plugins: ['stylelint-plugin-logical-css'],
