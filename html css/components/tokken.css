@@ -1,0 +1,17 @@
+:root {
+    --font-size-base: 14px;
+    --font-size-medium: 28px;
+    --font-size-big: 44px; 
+
+    --color-logo:rgb(53, 53, 94);
+    --color-title: #bf6024;
+    --color-luxe: #e32ee9;
+    --color-button-hotel: #d35400;
+    --color-standart: #ece7e7;
+    --color-txt-card: black;
+    --color-border-hr: #7a7a7a;
+
+    --borderstandard: 8px;
+    --borderbig: 20px
+     
+}

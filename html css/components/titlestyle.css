@@ -1,0 +1,17 @@
+.hobby {
+  color: var(--color-title) ;
+  font-size: 24px;
+    }
+.live{
+    color: var(--color-title);
+    font-size: 24px;
+    border-top: 1px solid #7a7a7a;
+}
+.relax{ 
+  font-size: 44px;
+  display: flex;
+  text-transform: uppercase;
+  padding-top: 24px;
+  margin-top: 24px;
+  border-top: 1px solid #7a7a7a;
+      }
