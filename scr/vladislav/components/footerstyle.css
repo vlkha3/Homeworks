@@ -1,0 +1,45 @@
+.footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 20px;
+
+	padding: 20px;
+	border-block-start: 1px solid #7a7a7a;
+}
+
+.official {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.polit:hover {
+	background-color: #b7e6ff;
+}
+
+.polit:focus {
+	box-shadow: 0 0 10px rgb(0 255 0 / 0.5);
+}
+
+.polit:active {
+	color: indigo;
+	background-color: yellow;
+}
+
+.connect {
+	align-items: center;
+	text-align: center;
+}
+
+.connect:hover {
+	background-color: #b7e6ff;
+}
+
+.connect:focus {
+	box-shadow: 0 0 10px rgb(0 255 0 / 0.5);
+}
+
+.connect:active {
+	color: indigo;
+	background-color: yellow;
+}

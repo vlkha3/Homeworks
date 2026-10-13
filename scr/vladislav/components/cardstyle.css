@@ -1,0 +1,156 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+.card {
+	box-sizing: border-box;
+	min-inline-size: 0;
+	padding: 12px;
+}
+
+.card:hover {
+	background-color: #b7e6ff;
+}
+
+.card:focus {
+	box-shadow: 0 0 10px rgb(0 255 0 / 0.5);
+}
+
+.card:active {
+	color: indigo;
+	background-color: yellow;
+}
+
+.card img {
+	display: block;
+	aspect-ratio: 4 / 3;
+	inline-size: 100%;
+	object-fit: cover;
+}
+
+.main-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 32px;
+}
+
+.image-section {
+	overflow: hidden;
+	border-radius: var(--borderstandard);
+}
+
+.image-section img {
+	inline-size: 100%;
+	block-size: 520px;
+	object-fit: cover;
+}
+
+.reserved:hover {
+	background-color: #b7e6ff;
+}
+
+.reserved:focus {
+	box-shadow: 0 0 10px rgb(0 255 0 / 0.5);
+}
+
+.reserved:active {
+	color: indigo;
+	background-color: yellow;
+}
+
+.look:hover {
+	background-color: #b7e6ff;
+}
+
+.look:focus {
+	box-shadow: 0 0 10px rgb(0 255 0 / 0.5);
+}
+
+.look:active {
+	color: indigo;
+	background-color: yellow;
+}
+
+.image-container {
+	position: relative;
+}
+
+.imagetxt {
+	display: flex;
+	flex-direction: column-reverse;
+
+	margin-block-start: -200px;
+
+	font-size: var(--font-size-medium);
+	font-weight: bold;
+	color: var(--color-luxe);
+}
+
+.image-buttons {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.btn {
+	padding: 10px 40px;
+	border: 1px solid #d35400;
+	border-radius: var(--borderbig);
+
+	font-size: 14px;
+	color: var(--color-button-hotel);
+	text-align: center;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background-color: #b7e6ff;
+}
+
+.btn:focus {
+	box-shadow: 0 0 10px rgb(0 255 0 / 0.5);
+}
+
+.btn:active {
+	color: indigo;
+	background-color: yellow;
+}
+
+.btn-primary {
+	max-inline-size: 300px;
+	padding: 10px 40px;
+	color: var(--color-standart);
+	background-color: var(--color-button-hotel);
+}
+
+.btn-primary:hover {
+	background-color: #b7e6ff;
+}
+
+.btn-primary:focus {
+	box-shadow: 0 0 10px rgb(0 255 0 / 0.5);
+}
+
+.btn-primary:active {
+	color: indigo;
+	background-color: yellow;
+}
+
+.content-section {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+
+	padding: 32px;
+	border-radius: var(--borderstandard);
+
+	background-color: var(--color-standart);
+}
+
+.card-actions {
+	display: flex;
+	gap: 12px;
+	margin-block-start: auto;
+}
