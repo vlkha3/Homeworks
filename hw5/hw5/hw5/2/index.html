@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subscription Plan</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<main>
+  <div class="subscription-form">
+    <h2 class="form-title">План подписки</h2>
+    <p class="form-subtitle">Выберите свой тарифный план подписки.</p>
+
+    <div class="plan-selector">
+      <label class="plan-option selected">
+        <input type="radio" name="plan" value="basic" checked />
+        <span class="plan-label">
+          <strong>Основной</strong>
+          <span class="plan-desc">Для отдельных лиц и небольших команд</span>
+        </span>
+        <span class="radio-indicator"></span>
+      </label>
+
+      <label class="plan-option">
+        <input type="radio" name="plan" value="pro" />
+        <span class="plan-label">
+          <strong>Продвинутый</strong>
+          <span class="plan-desc">Для предприятий с более высокими требованиями</span>
+        </span>
+        <span class="radio-indicator"></span>
+      </label>
+    </div>
+
+    <div class="billing-section">
+      <h3 class="section-title">Расчетный период</h3>
+      <p class="section-hint">Выберите, как часто вы хотите, чтобы вам выставляли счет.</p>
+      <select class="billing-select">
+        <option value="monthly">Ежемесячно</option>
+        <option value="yearly">Годовой</option>
+      </select>
+    </div>
+
+    <div class="addons-section">
+      <h3 class="section-title">Дополнения</h3>
+      <p class="section-hint">Выберите дополнительные функции, которые вы хотели бы включить.</p>
+
+      <div class="checkbox-group">
+        <label class="checkbox-option">
+          <input type="checkbox" name="addon" value="analytics" />
+          <span class="checkmark"></span>
+          <div class="option-content">
+            <strong>Аналитика</strong>
+            <span class="option-desc">Расширенная аналитика и отчетность</span>
+          </div>
+        </label>
+
+        <label class="checkbox-option">
+          <input type="checkbox" name="addon" value="backup" />
+          <span class="checkmark"></span>
+          <div class="option-content">
+            <strong>Резервная копия</strong>
+            <span class="option-desc">Автоматическое ежедневное резервное копирование</span>
+          </div>
+        </label>
+
+        <label class="checkbox-option">
+          <input type="checkbox" name="addon" value="priority" />
+          <span class="checkmark"></span>
+          <div class="option-content">
+            <strong>Приоритетная поддержка</strong>
+            <span class="option-desc">круглосуточная поддержка 24/7</span>
+          </div>
+        </label>
+      </div>
+    </div>
+
+    <div class="notifications-section">
+      <div class="toggle-row">
+        <div class="toggle-label">
+          <h3 class="section-title">Уведомления по электронной почте</h3>
+          <p class="section-hint">Получайте обновления о вашей подписке по электронной почте</p>
+        </div>
+
+        <label class="toggle-switch">
+          <input type="checkbox" name="notifications" checked />
+          <span class="switch-slider"></span>
+        </label>
+      </div>
+    </div>
+
+    <button type="submit" class="save-btn">Сохранить настройки</button>
+  </div>
+
+
+</main>
+</body>
+</html>

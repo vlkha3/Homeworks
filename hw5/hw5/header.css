@@ -1,0 +1,19 @@
+.bug-report-container {
+  width: 100%;
+  max-width: 500px;
+  padding: var(--gap-lg);
+  box-sizing: border-box;
+}
+
+.bug-report-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 var(--gap-sm) 0;
+  color: var(--text-color);
+}
+
+.bug-report-subtitle {
+  font-size: 14px;
+  color: var(--hint-color);
+  margin: 0 0 var(--gap-lg) 0;
+}

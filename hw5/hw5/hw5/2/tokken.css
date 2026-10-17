@@ -1,0 +1,12 @@
+ :root {
+      --bg-dark: #1e1e1e;
+      --bg-card: #2b2b2b;
+      --text-main: #ffffff;
+      --text-muted: #aaaaaa;
+      --border: #3e3e3e;
+      --accent: #4a90e2;
+      --radius: 12px;
+      --gap-sm: 8px;
+      --gap-md: 16px;
+      --gap-lg: 24px;
+    } 
