@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Отчет об ошибке</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<header class="bug-report-container">
+				<h1 class="bug-report-title">Отчет об ошибке</h1>
+				<p class="bug-report-subtitle">
+					Помогайте нам совершенствоваться, сообщая об ошибках, с которыми вы сталкиваетесь.
+				</p>
+			</header>
+			<form class="bug-form">
+				<div class="form-group">
+					<label class="form-label">Название ошибки</label>
+					<input
+						type="text"
+						class="form-input"
+						maxlength="100"
+						placeholder="Кнопка входа в систему не работает на мобильном устройстве"
+					/>
+				</div>
+
+				<div class="form-group">
+					<label class="form-label">Описание</label>
+					<textarea
+						class="form-textarea"
+						placeholder="У меня проблема с кнопкой входа в систему на мобильном телефоне."
+						maxlength="100"
+					></textarea>
+					<div class="char-count">0/100 символов</div>
+				</div>
+
+				<p class="hint-text">
+					Укажите шаги для воспроизведения, ожидаемое поведение и то, что произошло на самом деле.
+				</p>
+
+				<div class="button-group">
+					<button type="button" class="btn btn-reset">Сброс</button>
+					<button type="submit" class="btn btn-submit">Отправить</button>
+				</div>
+			</form>
+		</main>
+	</body>
+</html>
