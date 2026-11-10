@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Тест таймера</title>
+  </head>
+  <body>
+    <h1></h1>
+
+    <script>
+      function createTimer(start, end) {
+        let value = start;
+
+        return function () {
+          if (value < end) return "done";
+
+          console.log(value);
+
+          if (value === end) {
+            console.log("Таймер завершил работу");
+          }
+
+          value--;
+          return value < end ? "done" : "running";
+        };
+      }
+
+      const tick = createTimer(3, 0);
+      const timerId = setInterval(() => {
+        if (tick() === "done") clearInterval(timerId);
+      }, 1000);
+    </script>
+  </body>
+</html>
